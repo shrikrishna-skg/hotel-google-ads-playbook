@@ -14,6 +14,8 @@ Complete in a private hotel project. Mark only after checking the saved state.
 - [ ] No unrelated inherited sitelinks, calls or locations.
 - [ ] Primary goals do not mislabel clicks or directions as bookings.
 - [ ] Start date, campaign status and policy status reopened after publication.
+- [ ] Assets > Associations confirms each intended phone/photo at the correct campaign or ad-group level; presence in the asset library alone is insufficient.
+- [ ] Saved campaign settings resolve any contradictory wizard summary. Record corrections and recheck the actual associations before claiming completion.
 - [ ] Preview distinguished from observed delivery; no own-ad clicks.
 - [ ] Private handoff identifies next action, owner and review date.
 
