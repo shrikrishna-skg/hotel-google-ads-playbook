@@ -16,6 +16,10 @@ A practical team guide to turn relevant hotel searches into reservation calls an
 
 No software installation or Google Ads API access is required to read or use these documents. This repository does not create campaigns, change budgets or automatically monitor accounts.
 
+## Preserve campaign history
+
+Use the [account and campaign continuity guide](docs/ACCOUNT-CONTINUITY.md) for stable IDs, multiple ads under one budget, per-hotel reporting and future manager-account/API access. Optimize existing campaigns in place; document any necessary one-time type replacement.
+
 ## Latest research
 
 Read the [September 2026 research update](docs/RESEARCH-UPDATE-2026-09.md) before launch: measurement traps, conditional brand defense, CPC adjustments, genuine image variety and free booking-link reporting. It records reusable recommendations, not live account changes.

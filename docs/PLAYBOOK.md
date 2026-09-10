@@ -24,6 +24,8 @@ All-day scheduling means eligibility, not continuous appearance or evenly divide
 
 ## 3. Inspect existing campaigns before creating another
 
+Follow the [continuity guide](ACCOUNT-CONTINUITY.md): preserve stable campaign IDs for routine optimization and record any necessary type replacement or account migration privately. Multiple ads/ad groups share a campaign budget; several campaigns must fit within the same hotel spending boundary.
+
 Check the active Google account and intended property. Review campaign status, budgets, dates, goals, ads, asset associations, recommendations and actual search terms. Find drafts and duplicate campaigns. Record the starting state privately.
 
 On a mixed-business account, inspect inherited sitelinks, calls and locations. A hotel ad must not send guests to another property's address or a software demo page. Campaign-level sitelinks should not be assumed to suppress inherited account assets. Scope changes narrowly; preserve valid associations and obtain authority before modifying unrelated campaigns. [Sitelink guidance](https://support.google.com/google-ads/answer/2375416?hl=en).
