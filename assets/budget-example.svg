@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Example of a five-dollar daily billed ad-cost boundary</title><desc id="desc">For most eligible campaigns, a two-dollar-fifty average daily budget corresponds to a five-dollar daily billed ad-cost limit and a seventy-six-dollar unchanged full-month example. Excludes taxes, fees and other campaigns; same-day higher budgets matter. All-day eligibility does not guarantee continuous visibility.</desc>
+<rect width="1200" height="430" rx="20" fill="#f3f6fb"/>
+<g font-family="Calibri,Arial,sans-serif" fill="#18314c">
+<text x="44" y="61" font-size="32" font-weight="700">Average budget ≠ daily billed-cost ceiling</text>
+<text x="44" y="96" font-size="20">Worked example for Google's standard limits for most campaigns</text>
+<rect x="44" y="130" width="340" height="151" rx="14" fill="#ffffff" stroke="#ccd8e6"/><rect x="428" y="130" width="340" height="151" rx="14" fill="#173e62"/><rect x="812" y="130" width="344" height="151" rx="14" fill="#ffffff" stroke="#ccd8e6"/>
+<text x="70" y="173" font-size="21">Set average daily budget</text><text x="70" y="238" font-size="52" font-weight="700">$2.50</text>
+<text x="453" y="173" font-size="21" fill="white">Standard daily billed limit</text><text x="453" y="238" font-size="52" font-weight="700" fill="white">$5.00</text>
+<text x="836" y="173" font-size="21">Unchanged full-month example</text><text x="836" y="238" font-size="52" font-weight="700">$76.00</text>
+<text x="44" y="325" font-size="20">Excludes taxes, fees and other campaigns. Higher budgets earlier that day affect the limit.</text>
+<text x="44" y="360" font-size="20">All-day eligibility is possible; continuous visibility and equal hourly spending are not guaranteed.</text>
+<text x="44" y="400" font-size="16">Source: Google Ads budget overview and budget-change rules • reviewed September 9, 2026</text>
+</g></svg>
