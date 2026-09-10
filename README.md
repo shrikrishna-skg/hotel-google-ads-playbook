@@ -16,6 +16,10 @@ A practical team guide to turn relevant hotel searches into reservation calls an
 
 No software installation or Google Ads API access is required to read or use these documents. This repository does not create campaigns, change budgets or automatically monitor accounts.
 
+## Latest research
+
+Read the [September 2026 research update](docs/RESEARCH-UPDATE-2026-09.md) before launch: measurement traps, conditional brand defense, CPC adjustments, genuine image variety and free booking-link reporting. It records reusable recommendations, not live account changes.
+
 ## Recommended starting approach
 
 For a small, tightly constrained hotel budget, start with one focused Search campaign, property/city exact and phrase keywords, genuine room/exterior photos and a hotel-specific phone/location asset. This is a starting hypothesis, not a universal recipe. Use evidence to decide whether to expand.

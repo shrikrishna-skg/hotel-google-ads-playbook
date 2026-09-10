@@ -12,7 +12,9 @@ Research local lodging intent, alternative hotels, the property's useful differe
 
 ## 2. Define the spend boundary
 
-For most campaigns, Google's standard daily billed limit is twice the average daily budget. Example: `$2.50 × 2 = $5`; an unchanged full-month example is `$2.50 × 30.4 = $76`. Served cost can exceed billed cost after adjustments. Reconcile the billed-cost report rather than treating a dashboard snapshot as the final charge. [Google budget overview](https://support.google.com/google-ads/answer/10486536?hl=en).
+For most campaigns, Google's standard daily billed limit is twice the average daily budget. Example: `$2.50 × 2 = $5`; an unchanged full-month example is `$2.50 × 30.4 = $76`. Served cost can exceed billed cost after adjustments. Reconcile final billing and adjustments rather than treating a dashboard snapshot as the final charge. The billed-cost report instructions apply to monthly invoicing; automatic-payment/prepaid accounts use Billing activity guidance. [Reporting by payment mode](https://support.google.com/google-ads/answer/9237921?hl=en). [Google budget overview](https://support.google.com/google-ads/answer/10486536?hl=en).
+
+Confirm billing mode: Pay for Conversions has no daily spending limit and is distinct from Maximize Conversions bidding. Two campaigns at `$2.50` average can reach `$10` combined daily billed ad cost; allocate the hotel ceiling across all active campaigns. [Spending-limit exceptions](https://support.google.com/google-ads/answer/10486637?hl=en).
 
 A same-day reduction does not erase the day's earlier higher limit: Google uses the highest average daily budget chosen that day. A campaign total budget caps the flight, not each day. [Budget-change rules](https://support.google.com/google-ads/answer/10487143?hl=en).
 
@@ -45,7 +47,7 @@ The following is a conservative **example configuration**, not an automatic pres
 | Destination | Exact property booking page | Prevent cross-property landings |
 | Calls/location | Correct reservation phone; only this hotel's Business Profile | Avoid wrong-destination calls and directions |
 
-Google documents CPC limits for [Maximize clicks](https://support.google.com/google-ads/answer/6268626?hl=en). Check bid adjustments and current behavior; the CPC limit and daily budget serve different purposes. Once reliable conversion data exists, evaluate conversion/value bidding rather than using clicks as a permanent proxy for bookings.
+Google documents CPC limits for [Maximize clicks](https://support.google.com/google-ads/answer/6268626?hl=en). Positive bid adjustments apply on top of the CPC limit: inspect them before treating it as an absolute per-click ceiling. The CPC limit and daily budget serve different purposes. Once reliable conversion data exists, evaluate conversion/value bidding rather than using clicks as a permanent proxy for bookings.
 
 ### Keyword examples to adapt
 
@@ -59,9 +61,9 @@ Replace the fictional hotel/city below; do not upload placeholders:
 "hotel rooms sample city"
 ```
 
-Separate brand and non-brand intent in reporting, and use separate ad groups if their messages differ materially. Exact and phrase match can include close variants; they are not literal-only allowlists. [Match types](https://support.google.com/google-ads/answer/7478529?hl=en).
+Brand defense is conditional: check existing chain/OTA coverage, direct-rate competitiveness and incremental value before deciding which brand queries deserve spend. Separate brand and non-brand intent in reporting, and use separate ad groups if their messages differ materially. Exact and phrase match can include close variants; they are not literal-only allowlists. [Match types](https://support.google.com/google-ads/answer/7478529?hl=en).
 
-Review potential negatives such as jobs, careers, apartments and unrelated destinations against actual search intent. Do not blindly exclude words such as “free” that can also appear in a useful “hotel free breakfast” search. Add negatives at the narrowest appropriate scope and record why.
+Review potential negatives such as jobs, careers, apartments and unrelated destinations against actual search intent. Do not blindly exclude words such as “free” that can also appear in a useful “hotel free breakfast” search. Add negatives at the narrowest appropriate scope and record why. PMax campaign negatives apply to Search/Shopping; Hotel inventory in travel PMax is excluded. Search themes are signals, not keyword restrictions. Avoid account-wide exclusions that block another hotel. [PMax control scope](https://support.google.com/google-ads/answer/13607727?hl=en).
 
 ## 5. Write accurate ads and choose genuine images
 
@@ -87,6 +89,8 @@ Do not invent discounts, room availability, ratings, “best price” claims or 
 
 Use original photographs owned or licensed for the intended use. Do not synthesize a nicer room, remove a permanent defect, or add amenities. Avoid stock rooms, overlay-heavy graphics and misleading edits. Images are subject to eligibility/review and may not show on every impression. [Image requirements](https://support.google.com/adspolicy/answer/10347108?hl=en).
 
+Aim for four unique relevant Search photographs with square and landscape formats. Multiple crops of one photo do not create distinct photographs. [Search image guidance](https://support.google.com/google-ads/answer/9566341?hl=en).
+
 The “best” photo is a hypothesis until measured. Compare eligible assets after meaningful exposure; avoid declaring a winner from one click. Track qualified calls and reservations where attribution permits, acknowledging that asset reports do not always establish causality.
 
 ## 6. Establish honest measurement
@@ -101,7 +105,9 @@ Keep these states separate:
 | Confirmed reservation | Booking confirmation linked through a valid measurement process | Incremental lift without further analysis |
 | Booking revenue | Attributed value after deduplication and agreed adjustments | Profit or uncancelled stay revenue automatically |
 
-Choose primary goals deliberately. Direction requests and outbound clicks should not silently become booking conversions. Verify the correct call action, call duration rule, phone source and reporting; [call conversion guidance](https://support.google.com/google-ads/answer/6100664?hl=en).
+Local call-button taps are not confirmed connected calls; local “Clicks to call” is biddable only in PMax. Keep these distinct from tracked qualified calls. [Local action definitions](https://support.google.com/google-ads/answer/9013908?hl=en).
+
+Choose primary goals deliberately. Secondary actions inside a custom goal still participate in bidding, so inspect goal membership as well as the action label. [Primary/secondary rules](https://support.google.com/google-ads/answer/11461796?hl=en). Direction requests and outbound clicks should not silently become booking conversions. Verify the correct call action, call duration rule, phone source and reporting; [call conversion guidance](https://support.google.com/google-ads/answer/6100664?hl=en).
 
 For an external chain booking engine, coordinate with its owner/provider for permitted tags, cross-domain attribution, click identifiers, deduplication, purchase value and cancellation handling. Never assume a hotel can install tags on a chain's domain. Keep guest-level information private and follow applicable consent requirements. Until purchases are verified, report them as unverified—not zero bookings and not successful bookings.
 
@@ -139,6 +145,8 @@ First week: inspect policy status, spend, landing page functionality, irrelevant
 - Low impressions: check eligibility, search demand and bid competitiveness before expanding.
 - Apparent overspend: compare date/time zone, budget history, other campaigns and final billing adjustments.
 
+A general 30-conversion evaluation recommendation is not a universal Smart Bidding activation minimum. At low volume, a fixed calendar window or tiny split test may remain inconclusive. [Evaluation guidance](https://support.google.com/google-ads/answer/7065882?hl=en).
+
 Change one major hypothesis at a time and record before/after periods. Do not chase every optimization-score recommendation. Agree acquisition economics with the owner before scaling; review cancellations and attribution limitations.
 
 ## 10. Separate Search, Maps and Google Hotels
@@ -147,6 +155,8 @@ Search targets search intent. Eligible location assets can support local discove
 
 Ask the chain/connectivity provider whether the correct property's direct rates and free booking links are connected, whether paid campaigns already exist, and who controls the feed. Verify price accuracy and bookability before adding paid Hotel inventory. Avoid duplicate competition with an existing brand program.
 
+Free booking-link clicks are reported outside Google Ads and do not use its tracking template. Ask the provider for separate paid/free reporting and allow for reporting lag. Hotel Center property-details estimated booking value assumes a 5% conversion rate; it is not measured revenue. [Free-link tracking](https://support.google.com/hotelprices/answer/10473662?hl=en), [estimate definition](https://support.google.com/hotelprices/answer/9144476?hl=en).
+
 ## Sources
 
-Sources are linked beside the relevant guidance. Budget and Hotel Center pages were checked September 9, 2026; other links are an operator reference set and should be reopened before each launch. Recommendations are our operating judgment, not Google guarantees. The Gallatin setup lessons in [LESSONS.md](LESSONS.md) are historical observations rather than live reporting.
+Sources are linked beside the relevant guidance. The [September research update](RESEARCH-UPDATE-2026-09.md) records newly checked guidance and its implications. Its sources were checked September 9, 2026; other links are an operator reference set and should be reopened before each launch. Recommendations are our operating judgment, not Google guarantees. The Gallatin setup lessons in [LESSONS.md](LESSONS.md) are historical observations rather than live reporting.
