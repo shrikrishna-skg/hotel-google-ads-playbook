@@ -20,6 +20,10 @@ No software installation or Google Ads API access is required to read or use the
 
 Use the [account and campaign continuity guide](docs/ACCOUNT-CONTINUITY.md) for stable IDs, multiple ads under one budget, per-hotel reporting and future manager-account/API access. Optimize existing campaigns in place; document any necessary one-time type replacement.
 
+## Next campaign review
+
+Read the [September 11 improvement priorities](docs/NEXT-REVIEW-2026-09-11.md): reconcile historical billing, verify reservation measurement, inspect actual search terms and preserve stable campaigns. These are recommendations, not completed live changes.
+
 ## Latest research
 
 Read the [September 2026 research update](docs/RESEARCH-UPDATE-2026-09.md) before launch: measurement traps, conditional brand defense, CPC adjustments, genuine image variety and free booking-link reporting. It records reusable recommendations, not live account changes.
